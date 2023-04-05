@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hotelelite" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name=".EditProfile"
+            android:exported="false"
+            android:label="User Profile"/>
+        <activity
+            android:name=".UserProfile"
+            android:exported="false"
+            android:label="User Profile"/>
+        <activity
+            android:name=".activities.event.EditEventRes"
+            android:exported="false"
+            android:label="Event Reservations"/>
+        <activity
+            android:name=".activities.event.EventResDetails"
+            android:exported="false"
+            android:label="Event Reservations"/>
+        <activity
+            android:name=".activities.event.CreateEventRes"
+            android:exported="false"
+            android:label="Event Reservations"/>
+        <activity
+            android:name=".activities.event.EventReservation"
+            android:exported="false"
+            android:label="Event Reservations"/>
+
+        <activity
+            android:name=".RegisterPage"
+            android:exported="false"
+            android:label="Register Page" />
+        <activity
+            android:name=".MainMenu"
+            android:exported="false"
+            android:label="Main Menu" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:label="Login Page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
